@@ -1,8 +1,11 @@
 {
-  "name": "@my-workspace/component",
+  "name": "@poudelankit10/component",
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "exports": {
     ".": {
       "import": "./index.mjs",
